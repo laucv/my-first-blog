@@ -88,7 +88,7 @@ DATABASES = {
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'Europe/Berlin'
+TIME_ZONE = 'Europe/Madrid'
 
 USE_I18N = True
 
@@ -102,3 +102,6 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
+#URLS
+LOGIN_REDIRECT_URL = '/'
